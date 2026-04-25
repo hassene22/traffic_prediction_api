@@ -3,7 +3,7 @@ services:
   - type: web
     name: traffic-prediction-api
     runtime: python
-    repo: https://github.com/tonusername/traffic-prediction-api
+    repo: https://github.com/hassene22/traffic_prediction_api.git
     plan: free
     envVars:
       - key: PYTHON_VERSION
