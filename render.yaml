@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: traffic-prediction-api
+    runtime: python
+    repo: https://github.com/tonusername/traffic-prediction-api
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
